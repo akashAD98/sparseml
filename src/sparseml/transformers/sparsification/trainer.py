@@ -834,7 +834,7 @@ class TrainerInterface(RecipeManagerTrainerInterface):
 
 class TransformersTrainer(HFTransformersTrainer):
     """
-    A transformers trainer class with customed behaviors that can be shared
+    A transformers trainer class with custom behavior that can be shared
     by all trainers inside SparseML
     """
 
