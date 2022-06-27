@@ -81,7 +81,7 @@ The following table lays out the root-level files and folders along with a descr
 
 ### Exporting for Inference
 
-After sparsifying a model, the [`export.py` script](https://github.com/neuralmagic/yolov5/blob/master/models/export.py) 
+After sparsifying a model, the [`export.py` script](https://github.com/akashAD98/sparseml/blob/main/integrations/ultralytics-yolov5/export.py) 
 converts the model into deployment formats such as [ONNX](https://onnx.ai/).
 The export process is modified such that the quantized and pruned models are corrected and folded properly.
 
